@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let r = parseFloat(prompt("Nhập bán kính đáy (r): "));
+        let h = parseFloat(prompt("Nhập chiều cao (h): "));
+        const pi = Math.PI;
+        let chuViDay = 2 * pi * r;
+        let dienTichXungQuanh = 2 * pi * r * h;
+        let dienTichToanPhan = dienTichXungQuanh + 2 * pi * r * r;
+        let theTich = pi * r * r * h;
+        document.write("DIenTichXQ: "+dienTichXungQuanh+"m ");
+        document.writeln("DienTichTP: "+dienTichXungQuanh+"m ");
+        document.writeln("TheTich: "+theTich+"m ");
+        document.writeln("ChuViDai: "+chuViDay+"m ");
+    </script>
+</body>
+
+</html>
